@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title"><span>Login Form</span></div>
+      <form id="login-form">
+        <div class="row">
+          <i class="fas fa-user"></i>
+          <input
+            type="text"
+            id="email_or_username"
+            placeholder="Email or Phone"
+            required
+          />
+        </div>
+        <div class="row">
+          <i class="fas fa-lock"></i>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="row button">
+          <button type="submit">Login</button>
+        </div>
+        <div class="signup-link">
+          Not a member? <a href="Sign Up.html">Signup now</a>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
